@@ -13,3 +13,15 @@ into '/usr/local/include/'.
 
 Please refer to our official github site for more installation instructions:
   https://github.com/protocolbuffers/protobuf
+
+
+* How to generate proto files
+---https://github.com/protocolbuffers/protobuf/releases
+
+** Resources
+
+* https://docs.nestjs.com/microservices/grpc#sample-grpc-service
+* https://levelup.gitconnected.com/nestjs-microservices-with-grpc-api-gateway-and-authentication-part-1-2-650009c03686
+* https://levelup.gitconnected.com/nestjs-microservices-with-grpc-api-gateway-and-authentication-part-2-2-d67dc8e3b86a
+* https://mariobuonomo.dev/blog/tutorial-nestjs-microservices-grpc
+* https://medium.com/effective-development/building-grpc-api-in-nest-with-typescript-95e1915abc15
