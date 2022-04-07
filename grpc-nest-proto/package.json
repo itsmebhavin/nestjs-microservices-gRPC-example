@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proto:book": "protoc --plugin=node_modules/.bin/protoc-gen-ts_proto -I=../grpc-nest-proto/proto --ts_proto_out=src/book/ ../grpc-nest-proto/proto/book.proto --ts_proto_opt=nestJs=true --ts_proto_opt=fileSuffix=.pb",
+    "proto:magazine": "protoc --plugin=node_modules/.bin/protoc-gen-ts_proto -I=../grpc-nest-proto/proto --ts_proto_out=src/magazine/ ../grpc-nest-proto/proto/magazine.proto --ts_proto_opt=nestJs=true --ts_proto_opt=fileSuffix=.pb",
+    "proto:all": "npm run proto:book && npm run proto:magazine"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/microservices": "^8.4.3",
+    "rxjs": "^7.5.5",
+    "ts-proto": "^1.110.2"
+  }
 }

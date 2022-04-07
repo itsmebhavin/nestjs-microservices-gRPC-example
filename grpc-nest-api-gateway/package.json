@@ -19,10 +19,9 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-
     "proto:install": "npm i git+https://github.com/YOUR_USERNAME/grpc-nest-proto.git",
-    "proto:book": "protoc --plugin=node_modules/.bin/protoc-gen-ts_proto -I=./node_modules/grpc-nest-proto/proto --ts_proto_out=src/book/ node_modules/grpc-nest-proto/proto/book.proto --ts_proto_opt=nestJs=true --ts_proto_opt=fileSuffix=.pb",
-    "proto:magazine": "protoc --plugin=node_modules/.bin/protoc-gen-ts_proto -I=./node_modules/grpc-nest-proto/proto --ts_proto_out=src/magazine/ node_modules/grpc-nest-proto/proto/magazine.proto --ts_proto_opt=nestJs=true --ts_proto_opt=fileSuffix=.pb",
+    "proto:book": "protoc --plugin=node_modules/.bin/protoc-gen-ts_proto -I=../grpc-nest-proto/proto --ts_proto_out=src/book/ ../grpc-nest-proto/proto/book.proto --ts_proto_opt=nestJs=true --ts_proto_opt=fileSuffix=.pb",
+    "proto:magazine": "protoc --plugin=node_modules/.bin/protoc-gen-ts_proto -I=../grpc-nest-proto/proto --ts_proto_out=src/magazine/ ../grpc-nest-proto/proto/magazine.proto --ts_proto_opt=nestJs=true --ts_proto_opt=fileSuffix=.pb",
     "proto:all": "npm run proto:book && npm run proto:magazine"
   },
   "dependencies": {
