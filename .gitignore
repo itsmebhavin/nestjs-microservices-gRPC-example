@@ -34,3 +34,6 @@ lerna-debug.log*
 !.vscode/extensions.json
 grpc-nest-proto/node_modules/*
 protoc-3.20.0-win64/*
+.vscode/launch.json
+aspnetcore-api/bin/*
+aspnetcore-api/obj/*
