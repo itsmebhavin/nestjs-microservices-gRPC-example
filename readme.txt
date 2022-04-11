@@ -18,6 +18,11 @@ Please refer to our official github site for more installation instructions:
 * How to generate proto files
 ---https://github.com/protocolbuffers/protobuf/releases
 
+** TECHNOLOGIES
+* NEST.js microservices
+* ASP.NET Core (.NET 6) microservices
+* NEST.js Gateway API
+
 ** Resources
 
 * https://docs.nestjs.com/microservices/grpc#sample-grpc-service
