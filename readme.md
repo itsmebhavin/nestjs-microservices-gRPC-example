@@ -306,9 +306,10 @@ npm run start:dev
 
 
 ### ASP.NET Core microservice
-***prerequisite**
+***prerequisite***
 
 [C# for VSCode -optional if you use .NET IDE](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+
 [.NET 6.0 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
 
 ***Create new project***
