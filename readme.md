@@ -298,7 +298,7 @@ npm run start:dev
 ```
 
 ***Testing using Postman***
-
+![Book service testing](https://github.com/itsmebhavin/nestjs-microservices-gRPC-example/blob/master/grpc-nest-book-svc/images/bookservicetesting.png)
 
 
 
@@ -335,6 +335,10 @@ Appsettings.json
 proto/greet.proto (same as our generic grpc-nest-proto folder. You can even refer it from there)
 ```
 
+***Testing using Postman***
+![Greet service testing](https://github.com/itsmebhavin/nestjs-microservices-gRPC-example/blob/master/aspnetcore-api/images/greetservicetesting.png)
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -354,6 +358,12 @@ Gateway will have two sub-module
   - module.ts
     - This is where we are going to consume that asp.net greet service on grpc channel
   - greet.pb.ts (compiled greet.proto file)
+
+
+***Testing using Postman***
+![Greet service testing](https://github.com/itsmebhavin/nestjs-microservices-gRPC-example/blob/master/grpc-nest-api-gateway/images/greetservicetesting.png)
+
+![Book service testing](https://github.com/itsmebhavin/nestjs-microservices-gRPC-example/blob/master/grpc-nest-api-gateway/images/bookservicetesting.png)
 
 
 <!-- resources -->
