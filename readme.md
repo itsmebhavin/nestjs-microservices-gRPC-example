@@ -23,7 +23,8 @@
 <div align="center">
   
 <h3 align="center">gRPC Microservices</h3>
-
+  <h6>nestjs-microservices-gRPC-example</h6>
+  
   <p align="center">
     gRPC Microservices example using nest.js and asp.net core microservices and nest.js based gateway API to consume in client app.
     <br />
