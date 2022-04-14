@@ -37,7 +37,7 @@
   </p>
 </div>
 
-
+![System Design](https://github.com/itsmebhavin/nestjs-microservices-gRPC-example/blob/master/gRPC%20microservice%20example%20diagram.png)
 
 <!-- TABLE OF CONTENTS -->
  <!--
