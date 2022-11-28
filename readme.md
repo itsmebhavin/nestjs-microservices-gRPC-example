@@ -79,6 +79,14 @@ Micorservices example using gRPC. Two microservices written in nest.js and ASP.N
 
 gRPC is a modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services.
 
+#### Communication Patterns in gRPC
+In gRPC, a communication pattern describes how messages are encoded and interpreted between the client and server. There are several communication patterns in gRPC, such as the following:
+
+- Unary RPC: A client submits only one request and receives only one response in unary RPC.
+- Server streaming: A client transmits a request to the server and receives streams of messages in response. The server provides a status message once all data is transmitted.
+- Client-streaming: Unlike server-streaming, client-streaming involves a client sending a stream of messages to a server. After the messages are sent, the client awaits the server's response.
+- Bidirectional-streaming: Bidirectional streaming allows clients and servers to exchange messages in any order.
+
 ### Why nest.js?
 NestJS is a framework for building efficient, scalable Node.js web applications. It uses modern JavaScript and is built with TypeScript. If you develop an API built with TypeScript, then NestJS is the way to go! It’s heavily inspired by Spring and Angular.
 
@@ -377,6 +385,8 @@ Gateway will have two sub-module
 * https://levelup.gitconnected.com/nestjs-microservices-with-grpc-api-gateway-and-authentication-part-2-2-d67dc8e3b86a
 * https://mariobuonomo.dev/blog/tutorial-nestjs-microservices-grpc
 * https://medium.com/effective-development/building-grpc-api-in-nest-with-typescript-95e1915abc15
+* https://www.codemag.com/Article/2212071/A-Deep-Dive-into-Working-with-gRPC-in-.NET-6
+
   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
